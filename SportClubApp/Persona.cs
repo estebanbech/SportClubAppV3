@@ -14,7 +14,7 @@ namespace SportClubApp
         private string telefono;
         private string email;
 
-        Persona(string nombre, string apellido, string dni, string telefono, string email)
+        public Persona(string nombre, string apellido, string dni, string telefono, string email)
         {
             this.nombre = nombre;
             this.apellido = apellido;
